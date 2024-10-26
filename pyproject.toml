@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "advanced rag project using open source llm models and groq inferencing engine"
+version = "0.1.0"
+description = ""
+authors = ["Nasir Abbas <akhtarabbas.islamicreaction@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-groq = "^0.2.0"
+python-dotenv = "^1.0.1"
+streamlit = "^1.39.0"
+langchain-community = "^0.3.3"
+langchain-ollama = "^0.2.0"
+faiss-cpu = "^1.9.0"
+langchain-google-genai = "^2.0.1"
+beautifulsoup4 = "^4.12.3"
+langchain = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
